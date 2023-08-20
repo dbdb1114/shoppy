@@ -1,0 +1,36 @@
+{
+    "item" : [
+        {
+            "productId" : "1",
+            "productTitle" : "핑크색 후드티",
+            "description" : "드림코딩 아카데미의 FW 신작 핑크색 후드티",
+            "productUrl" : "/image/mainProducts/1.webp",
+            "sex" : "여성",
+            "price" : "23000"
+        },
+        {
+            "productId" : "2",
+            "productTitle" : "검정색 후드티",
+            "description" : "드림코딩 아카데미의 FW 신작 검정색 후드티",
+            "productUrl" : "/image/mainProducts/2.webp",
+            "sex" : "여성",
+            "price" : "25000"
+        },
+        {
+            "productId" : "3",
+            "productTitle" : "줄무니 원피스",
+            "description" : "드림코딩 아카데미의 FW 신작 줄무늬 원피스",
+            "productUrl" : "/image/mainProducts/3.webp",
+            "sex" : "여성",
+            "price" : "19000"
+        },
+        {
+            "productId" : "4",
+            "productTitle" : "줄무니 반바지",
+            "description" : "드림코딩 아카데미의 FW 신작 줄무늬 반바지",
+            "productUrl" : "/image/mainProducts/4.webp",
+            "sex" : "여성",
+            "price" : "14000"
+        }
+    ]
+}

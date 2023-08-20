@@ -1,0 +1,8 @@
+{
+    "item":
+    {
+        "productId" : "4",
+        "size" : ["2xl","xl","l","m","s","xs"],
+        "stock" :"4"
+    }
+}
