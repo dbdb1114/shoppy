@@ -15,7 +15,8 @@ export default class BackApiClient {
     async pageProductList(){
         
     }
-
+    async productDetail(productId){
+    }
 }
 
-export const maiinProductList = axios()
+export const mainProductList = axios()

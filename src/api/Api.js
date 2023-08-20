@@ -1,12 +1,16 @@
 
 export default class Api {
+
     constructor(apiClient) {
         this.apiClient = apiClient;
     }
 
     async productList(isMain){
-        console.log(isMain);
         return isMain ? this.#mainProductList() : this.#pageProductList();
+    }
+
+    async productInventory(productId){
+        return this.apiClient.productInventory(productId);
     }
 
     async #mainProductList(){
@@ -15,6 +19,10 @@ export default class Api {
 
     async #pageProductList(){
         return this.apiClient.pageProductList();
+    }
+
+    async #productInventory(productId){
+        return this.apiClient.productInventory(productId);
     }
 
 }
