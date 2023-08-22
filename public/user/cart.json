@@ -1,0 +1,22 @@
+
+{
+    "item" : [
+        {
+            "productId" : "1",
+            "productTitle" : "핑크색 후드티",
+            "price" : "23000",
+            "productUrl" : "/image/mainProducts/1.webp",
+            "size" : "M",
+            "ea" : "2"
+        },
+        {
+            "productId" : "2",
+            "productTitle" : "검정색 후드티",
+            "price" : "25000",
+            "productUrl" : "/image/mainProducts/2.webp",
+            "size" : "M",
+            "ea" : "2"
+        }
+    ]
+
+}

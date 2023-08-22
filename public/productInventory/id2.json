@@ -2,7 +2,12 @@
     "item":
     {
         "productId" : "2",
+        "productTitle" : "검정색 후드티",
+        "description" : "드림코딩 아카데미의 FW 신작 검정색 후드티",
+        "productUrl" : "/image/mainProducts/2.webp",
+        "sex" : "여성",
         "size" : ["2xl","xl","l","m","s","xs"],
-        "stock" :"4"
+        "stock" :"4",
+        "price" : "25000"
     }
 }

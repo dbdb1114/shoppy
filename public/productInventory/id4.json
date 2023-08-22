@@ -2,7 +2,12 @@
     "item":
     {
         "productId" : "4",
+        "productTitle" : "줄무니 반바지",
+        "description" : "드림코딩 아카데미의 FW 신작 줄무늬 반바지",
+        "productUrl" : "/image/mainProducts/4.webp",
+        "sex" : "여성",
         "size" : ["2xl","xl","l","m","s","xs"],
-        "stock" :"4"
+        "stock" :"4",
+        "price" : "14000"
     }
 }
