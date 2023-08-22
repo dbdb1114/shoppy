@@ -5,7 +5,7 @@ import {AiOutlineShoppingCart} from "react-icons/ai";
 export default function Header () {
 
     return(
-        <header>
+        <header className="border-b border-mainColor mb-3 py-2">
             <div className="flex h-20 justify-between">
                 <Link to='/' className="flex items-center">
                     <span alt="logo" className="inline-block w-14 h-14 md:w-16 md:h-16 bg-[url('../public/image/logo.png')] bg-cover" />
