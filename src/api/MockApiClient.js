@@ -6,7 +6,6 @@ const mockAxiosIns = axios.create({
 
 mockAxiosIns.interceptors.response.use(
     function (response){
-        console.log(response)
         return response.data.item;
     }, function (error){
         console.log(error);
@@ -26,6 +25,10 @@ export default class MockApiClient {
 
     async productInventory(productId){
         return mockAxiosIns.get(`/productInventory/id${productId}.json`);
+    }
+
+    async userCart(){
+        return mockAxiosIns.get(`/user/cart.json`);
     }
 
 }

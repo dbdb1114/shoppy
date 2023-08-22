@@ -10,7 +10,11 @@ export default class Api {
     }
 
     async productInventory(productId){
-        return this.apiClient.productInventory(productId);
+        return this.#productInventory(productId);
+    }
+
+    async userCart(userId){
+        return this.#userCart(userId);
     }
 
     async #mainProductList(){
@@ -23,6 +27,10 @@ export default class Api {
 
     async #productInventory(productId){
         return this.apiClient.productInventory(productId);
+    }
+
+    async #userCart(userId) {
+        return this.apiClient.userCart();
     }
 
 }

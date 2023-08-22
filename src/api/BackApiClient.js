@@ -1,6 +1,7 @@
 import axios from "axios"
 
 export default class BackApiClient {
+    
     constructor(){ 
         this.httpClient = axios.create({
             baseURL: 'localhost:8080/',
@@ -8,15 +9,14 @@ export default class BackApiClient {
         })
     }
 
-    async mainProductList(){
+    async mainProductList(){}
 
-    }
+    async pageProductList(){}
 
-    async pageProductList(){
-        
-    }
-    async productDetail(productId){
-    }
+    async productDetail(productId){}
+
+    async userCart(){}
+
 }
 
 export const mainProductList = axios()
